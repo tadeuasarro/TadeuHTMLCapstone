@@ -9,7 +9,7 @@
 }
 
 .bg-image {
-  background-image: url('../bg.jpg/');
+  background-image: url('../img/bg.jpg/');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -25,6 +25,28 @@
 
 .first-detail {
   background-color: #e27e65;
+}
+
+.img-edit1,
+.img-edit2 {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-edit1 {
+  background-image: url('../img/kids.webp');
+}
+
+.img-edit2 {
+  background-image: url('../img/comute.webp');
+}
+
+.img-edit3 {
+  background-image: url('../img/clock.jpg');
 }
 
 .second-detail {
