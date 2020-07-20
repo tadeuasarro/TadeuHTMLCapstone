@@ -7,3 +7,18 @@
 .edit-navbar {
   background-color: #d4574a;
 }
+
+.bg-image {
+  background-image: url('../bg.jpg/');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.form-edit {
+  background-color: rgba(190, 190, 190, 0.8);
+}
+
+.w-20 {
+  width: 10%;
+}
