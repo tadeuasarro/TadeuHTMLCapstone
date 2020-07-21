@@ -48,63 +48,223 @@
             </nav>
         </header>
 
-        <main class="container-fluid p-0 m-0">
-            <div class="py-5 my-5 bg-secondary">
-                <h6 class="text-center text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
-                <form class="d-flex justify-content-center align-items-end text-uppercase">
-                    <div class="form-group mr-1 m-0">
+        <main class="container-fluid pb-5 p-0 m-0">
+
+            <!-- SEARCH COVER FOR LG SCREENS -->
+            <div class="p-5 my-5 bg-secondary text-center d-none d-lg-flex flex-wrap justify-content-center">
+                <h6 class="text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
+                <form class="d-flex justify-content-center align-items-end text-uppercase w-100 filter-form">
+                    <div class="form-group mr-1 m-0 text-left">
                         <label>School name:*</label>
-                        <input class="form-control">
+                        <input class="form-control form-control-sm">
                     </div>
-                    <div class="form-group mr-1 m-0">
+                    <div class="form-group mr-1 m-0 text-left">
                         <label>County:</label>
-                        <select class="custom-select">
+                        <select class="custom-select custom-select-sm">
                             <option></option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <div class="form-group mr-1 m-0">
+                    <div class="form-group mr-1 m-0 text-left">
                         <label>Level:</label>
-                        <select class="custom-select">
+                        <select class="custom-select custom-select-sm">
                             <option></option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <div class="form-group mr-1 m-0">
+                    <div class="form-group mr-1 m-0 text-left">
                         <label>Type:</label>
-                        <select class="custom-select">
+                        <select class="custom-select custom-select-sm">
                             <option></option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <div class="form-group mr-1 m-0">
+                    <div class="form-group mr-1 m-0 text-left">
                         <label>Gender:</label>
-                        <select class="custom-select">
+                        <select class="custom-select custom-select-sm">
                             <option></option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <div class="form-group mr-1 m-0">
+                    <div class="form-group mr-1 m-0 text-left">
                         <label>Curriculum:</label>
-                        <select class="custom-select">
+                        <select class="custom-select custom-select-sm">
                             <option></option>
                             <option value="1">Option 1</option>
                             <option value="2">Option 2</option>
                             <option value="3">Option 3</option>
                         </select>
                     </div>
-                    <button class="btn btn-primary mr-1 h-50">Search</button>
-                    <button class="btn btn-warning h-50">Clear filter</button>
+                    <button class="btn btn-primary btn-sm d-flex align-items-center mr-1">Search</button>
+                    <button class="btn btn-warning btn-sm d-flex text-nowrap">Clear filter</button>
                 </form>
             </div>
+
+            <!-- SEARCH COVER FOR MD SCREENS -->
+            <div class="p-5 my-5 bg-secondary text-center d-none d-md-flex d-lg-none flex-wrap justify-content-center">
+                <h6 class="text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
+                <form class="d-flex justify-content-center align-items-end flex-wrap text-uppercase w-100 filter-form">
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">School name:*</label>
+                        <input class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">County:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Level:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Type:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Gender:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Curriculum:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <button class="btn w-100 btn-primary btn-sm d-flex justify-content-center align-items-center my-2 mx-3">Search</button>
+                    <button class="btn w-100 btn-warning btn-sm d-flex justify-content-center text-nowrap my-3 mx-3">Clear filter</button>
+                </form>
+            </div>
+
+            <!-- SEARCH COVER FOR SM SCREENS -->
+            <div class="p-5 my-5 bg-secondary text-center d-flex d-md-none flex-wrap justify-content-center">
+                <h6 class="text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
+                <form class="d-flex justify-content-center align-items-end flex-wrap text-uppercase w-100 filter-form">
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">School name:*</label>
+                        <input class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">County:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Level:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Type:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Gender:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Curriculum:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <button class="btn w-100 btn-primary btn-sm d-flex justify-content-center align-items-center my-2 mx-3">Search</button>
+                    <button class="btn w-100 btn-warning btn-sm d-flex justify-content-center text-nowrap my-3 mx-3">Clear filter</button>
+                </form>
+            </div>
+
+            <div class="container">
+                <h6 class="text-center text-dark h3 mb-4">Search result found 7 school(s)</h6>
+                <div class="row position-relative">
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <div class="found-schools d-flex justify-content-center align-items-center">
+                            <p class="text-white">Name: <b>School name here</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <footer>

@@ -19,7 +19,7 @@
   background-color: rgba(190, 190, 190, 0.8);
 }
 
-.w-20 {
+.w-10 {
   width: 10%;
 }
 
@@ -71,4 +71,14 @@
 
 .bg-black {
   background-color: black;
+}
+
+.found-schools {
+  background-image: url('../img/bg.jpg/');
+  height: 350px;
+  width: 100%;
+}
+
+.filter-form {
+  font-size: small;
 }
