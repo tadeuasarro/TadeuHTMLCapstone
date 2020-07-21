@@ -28,13 +28,21 @@
 }
 
 .img-edit1,
-.img-edit2 {
+.img-edit2,
+.img-edit3 {
   width: 200px;
-  height: 200px;
   top: 0;
   right: 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.img-edit1,
+.img-edit2 {
+  height: 200px;
+}
+.img-edit3 {
+  height: 250px;
 }
 
 .img-edit1 {
@@ -55,4 +63,12 @@
 
 .third-detail {
   background-color: #519bd7;
+}
+
+.text-white:hover {
+  text-decoration: none;
+}
+
+.bg-black {
+  background-color: black;
 }

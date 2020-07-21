@@ -11,16 +11,38 @@
     <body>
 
         <header>
-            <nav class="container-fluid py-0 px-5 m-0 edit-navbar d-flex flex-sm-column flex-md-row justify-content-md-between">
+            <nav class="container-fluid py-0 px-5 m-0 edit-navbar d-flex flex-column flex-md-row justify-content-md-between">
                 <h3 class="d-flex align-text-top h-100 text-white justify-content-center my-1">
+                    <a class="text-white" href="index.html">
                     <i class="fas fa-map-marker pt-2 pr-2"></i>
                     <span class="">patashule</span>
+                    </a>
                 </h3>
                 <ul class="text-white my-3 d-flex justify-content-center align-items-center">
-                    <li class="d-inline px-3"><i class="fas fa-search pr-1"></i><span class="d-none d-md-inline">Schools</span></li>
-                    <li class="d-inline px-3"><i class="far fa-user pr-1"></i><span class="d-none d-md-inline">About</span></li>
-                    <li class="d-inline px-3"><i class="fas fa-wifi pr-1"></i><span class="d-none d-md-inline">Blog</span></li>
-                    <li class="d-inline px-3"><i class="fas fa-bars pr-1"></i><span class="d-none d-md-inline">More...</span></li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-search pr-1"></i>
+                            <span class="d-none d-md-inline">Schools</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="far fa-user pr-1"></i>
+                            <span class="d-none d-md-inline">About</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-wifi pr-1"></i>
+                            <span class="d-none d-md-inline">Blog</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-bars pr-1"></i>
+                            <span class=" d-none d-md-inline">More...</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -31,11 +53,18 @@
             <div class="bg-image py-5 px-2 d-flex justify-content-center">
                 <div class="pt-5 p-0 mt-5 m-0 d-flex d-md-none w-100 align-items-center flex-column">
                     <h3 class="p-0 text-white d-flex w-100">Pata shule... your getaway for schools in Kenya.</h3>
-                    <form class="rounded pt-2 pb-3 px-2 form-edit w-100">
+                    <form class="rounded d-none d-sm-block pt-2 pb-3 px-2 form-edit w-100">
                         <label>Search by keyword:</label>
                         <div class="input-group">
                             <input class="col-10 form-control input-group-text">
                             <button class=" col-2 btn btn-danger form-control">Search</button>
+                        </div>
+                    </form>
+                    <form class="rounded d-block d-sm-none pt-2 pb-3 px-2 form-edit w-100">
+                        <label>Search by keyword:</label>
+                        <div class="input-group">
+                            <input class="col-8 form-control input-group-text">
+                            <button class=" col-4 btn btn-danger form-control">Search</button>
                         </div>
                     </form>
                     <a class="btn btn-secondary mt-3" href="">How it works</a>
@@ -55,12 +84,12 @@
 
             <!-- FOUR STEPS -->
             <div>
-                <h5 class="text-center pt-5 pb-3 text-danger font-weight-bold">Pata schule works in four simple steps</h5>
+                <h5 class="text-center px-5 pt-5 pb-3 text-danger font-weight-bold">Pata schule works in four simple steps:</h5>
                 <div class="row w-100">
                     <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center">
                         <i class="fas fa-search mb-2 h1"></i>
                         <h5 class="h3">1-Search</h5>
-                        <p class="text-center">It's simple. On Pata shule homepage, enter the name of a school you're looking for aand click on search. Alternatively click on the search link on the top menu to view the list of all schools.</p>
+                        <p class="text-center">It's simple. On Pata shule homepage, enter the name of a school you're looking for and click on search. Alternatively click on the search link on the top menu to view the list of all schools.</p>
                     </div>
                     <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center">
                         <i class="fas fa-map-marked-alt mb-2 h1"></i>
@@ -85,12 +114,12 @@
                 <div class="col-12 first-detail d-flex justify-content-center w-100 py-3 px-5">
                     <div class="w-75 text-center d-flex justify-content-between">
                         <div class="first-detail-container text-left d-none d-sm-flex w-50 flex-column justify-content-center text-white">
-                            <p>Over 10.000 schools registered with us.</p>
+                            <p class="h5">Over 10.000 schools registered with us.</p>
                             <p>Find a school by using our filtered search engine.</p>
                             <a href="" class="btn btn-light text-danger">Find a school</a>
                         </div>
                         <div class="first-detail-container text-left d-block d-sm-none w-100 text-white">
-                            <p>Over 10.000 schools registered with us.</p>
+                            <p class="h5">Over 10.000 schools registered with us.</p>
                             <p>Find a school by using our filtered search engine.</p>
                             <a href="" class="btn btn-light text-danger">Find a school</a>
                         </div>
@@ -99,36 +128,52 @@
                 </div>
                 <div class="col-12 second-detail d-flex justify-content-center w-100 py-3 px-5">
                     <div class="w-75 text-center d-flex justify-content-between">
-                        <div class="first-detail-container text-left d-none d-sm-flex w-50 text-white  flex-column justify-content-center">
-                            <p>No need to commute to find a school in the country.</p>
+                        <div class="text-left d-none d-sm-flex w-50 text-white flex-column justify-content-center">
+                            <p class="h5">No need to commute to find a school in the country.</p>
                             <p>Just press or click on the search button and you're all set.</p>
-                            <a href="" class="btn btn-light text-primary">Find a school near you</a>
+                            <a href="" class="btn btn-light text-dark">Find a school near you</a>
                         </div>
-                        <div class="first-detail-container text-left d-block d-sm-none w-100 text-white">
-                            <p>No need to commute to find a school in the country.</p>
+                        <div class="text-left d-block d-sm-none w-100 text-white">
+                            <p class="h5">No need to commute to find a school in the country.</p>
                             <p>Just press or click on the search button and you're all set.</p>
-                            <a href="" class="btn btn-light text-primary">Find a school near you</a>
+                            <a href="" class="btn btn-light text-dark">Find a school near you</a>
                         </div>
                         <div class="img-edit2 rounded-circle d-none d-sm-flex"></div>
                     </div>
                 </div>
-                <div class="col-12 border first-detail d-flex justify-content-center w-100 py-3 px-5">
+                <div class="col-12 third-detail d-flex justify-content-center w-100 py-3 px-5">
                     <div class="w-75 text-center d-flex justify-content-between">
-                        <div class="first-detail-container text-left d-none d-sm-block w-50 border text-white">
-                            <p>Anytime, anywhere, anyway!</p>
+                        <div class="text-left d-none d-sm-flex w-50 text-white p-0 flex-column justify-content-center">
+                            <p class="h5">Anytime, anywhere, anyway!</p>
                             <p>Very convenient platforms that cut across any device including our mobile ready web app and our mobile app comming soon to your app store.</p>
                         </div>
-                        <div class="first-detail-container text-left d-block d-sm-none w-100 border text-white">
-                            <p>Anytime, anywhere, anyway!</p>
+                        <div class="text-left d-block d-sm-none w-100 text-white">
+                            <p class="h5">Anytime, anywhere, anyway!</p>
                             <p>Very convenient platforms that cut across any device including our mobile ready web app and our mobile app comming soon to your app store.</p>
                         </div>
-                        <div class="img-edit3 rounded-circle d-none d-sm-flex"></div>
+                        <div class="img-edit3 rounded d-none d-sm-flex"></div>
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer></footer>
+        <footer>
+            <div class="bg-black container-fluid row p-0 m-0">
+                <ul class="col-5 mb-3 mt-3 d-flex flex-column flex-sm-row justify-content-center align-items-center w-100 m-0 p-0">
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                </ul>
+                <span class="col-2 mt-2 mb-2 border rounded-circle p-1 d-flex flex-column justify-content-center align-items-center"><a href="#" class=" h3 text-white"><i class="fas fa-map-marker"></i></a></span>
+                <ul class="col-5 mb-3 mt-3 d-flex flex-column flex-sm-row justify-content-around align-items-center w-100 m-0 p-0">
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                    <li class="w-100 d-inline border-top border-bottom py-3 m-0"><a href="#" class="text-white p-0 m-0">Mocktext</a></li>
+                </ul>
+            </div>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
