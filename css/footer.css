@@ -42,6 +42,8 @@ footer {
 
 .grid-edit {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
 }
 
 .first-row-edit {
@@ -63,7 +65,11 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 40px;
+}
+
+.second-col-edit,
+.third-col-edit {
+  padding: 0 20px;
 }
 
 .first-col-edit {
@@ -113,6 +119,7 @@ footer {
 .social-media {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .social-media i {
@@ -122,8 +129,10 @@ footer {
 
 .copyright,
 .social-media {
+  text-align: center;
   margin-top: 30px;
   color: white;
+  width: 100%;
 }
 
 /* FOOTER MEDIA QUERIES */
@@ -184,6 +193,10 @@ footer {
   .edit-sm-column-4 {
     grid-column-start: 4;
     grid-column-end: 4;
+  }
+
+  .grid-edit {
+    grid-template-columns: unset;
   }
 
   .first-col-edit,
