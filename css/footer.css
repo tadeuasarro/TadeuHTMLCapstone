@@ -1,0 +1,186 @@
+/* FOOTER STYLING */
+.edit-inline {
+  display: inline;
+}
+
+.edit-ul {
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer-container {
+  padding: 20px 60px;
+}
+
+.footer-anchor {
+  color: white;
+}
+
+.footer-anchor:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-loc-icon {
+  background-color: black;
+  padding: 40px 45px;
+  border: white solid 1px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.grid-edit {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.first-col-edit,
+.second-col-edit,
+.third-col-edit {
+  max-width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.first-col-edit {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.second-col-edit {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.third-col-edit {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-form input {
+  border-radius: 5px 0 0 5px;
+}
+
+.footer-form button {
+  border-radius: 0 5px 5px 0;
+}
+
+.footer-form input,
+.footer-form button {
+  border: none;
+  padding: 5px 10px;
+}
+
+.footer-form button:hover {
+  background-color: grey;
+}
+
+.last-elem {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(46, 46, 46);
+  padding: 0 20px 30px 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.social-media i {
+  padding-right: 20px;
+  color: white;
+}
+
+.copyright,
+.social-media {
+  margin-top: 30px;
+  color: white;
+}
+
+/* FOOTER MEDIA QUERIES */
+@media (max-width: 767px) {
+  .edit-inline {
+    display: block;
+    padding: 0 15px;
+  }
+
+  .li-display-none {
+    position: absolute;
+    top: -65px;
+  }
+
+  footer {
+    padding: 80px 10px 20px 10px;
+    line-height: 30px;
+  }
+
+  .footer-loc-icon {
+    padding: 20px 25px;
+  }
+
+  .edit-ul {
+    position: relative;
+    justify-content: space-evenly;
+  }
+
+  .first-col-edit,
+  .second-col-edit,
+  .third-col-edit {
+    max-width: 100%;
+    padding: 10px 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: block;
+  }
+
+  .first-col-edit {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .second-col-edit {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .third-col-edit {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  .footer-form {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .footer-form input,
+  .footer-form button {
+    max-width: 100%;
+  }
+
+  .last-elem {
+    flex-wrap: wrap;
+  }
+
+}
