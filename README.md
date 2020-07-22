@@ -1,10 +1,10 @@
 # Using Bootstrap
 
-Hey! In this project the main objective was to work on the frontend, by creating a HTML version of [this project right here]().
+Hey! In this project the main objective was to work on the frontend, by creating a HTML version of [this project right here](https://www.behance.net/gallery/25563385/PatashuleKE).
 
 ![screenshot]()
 
-I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a combination of Bootstrap and CSS. Except the by the footer, which was entirely made with pure CSS.
+I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a combination of Bootstrap and CSS. Except by the footer, which was entirely made with pure CSS.
 
 ## Live Demo
 
@@ -15,7 +15,8 @@ I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a com
 
 #### This project design belongs to these guys:
 
-[Mathew Njuguna](https://www.behance.net/aweSam) & [Sam Achola](https://www.behance.net/mathewnjuguna)
+- [Mathew Njuguna](https://www.behance.net/aweSam)
+- [Sam Achola](https://www.behance.net/mathewnjuguna)
 
 #### This is me:
 
