@@ -119,7 +119,7 @@ footer {
 .social-media {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .social-media i {
@@ -129,7 +129,7 @@ footer {
 
 .copyright,
 .social-media {
-  text-align: center;
+  text-align: end;
   margin-top: 30px;
   color: white;
   width: 100%;
@@ -266,6 +266,14 @@ footer {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .copyright {
+    text-align: center;
   }
 
 }
