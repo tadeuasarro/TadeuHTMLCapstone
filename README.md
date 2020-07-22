@@ -4,7 +4,7 @@ Hey! In this project the main objective was to work on the frontend, by creating
 
 ![screenshot]()
 
-I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a combination of Bootstrap and CSS. Except the ´<footer>´, which was entirely made with pure CSS.
+I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a combination of Bootstrap and CSS. Except the ´´´<footer>´´´, which was entirely made with pure CSS.
 
 ## Live Demo
 
