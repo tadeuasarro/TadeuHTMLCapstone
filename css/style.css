@@ -65,7 +65,8 @@
   background-color: #519bd7;
 }
 
-.text-white:hover {
+.text-white:hover,
+.text-body:hover {
   text-decoration: none;
 }
 
@@ -81,4 +82,8 @@
 
 .filter-form {
   font-size: small;
+}
+
+.border-grey {
+  border: solid 1px grey;
 }
