@@ -13,6 +13,12 @@ I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a com
 
 ## Authors
 
+#### This project design belongs to these guys:
+
+[Mathew Njuguna](https://www.behance.net/aweSam) & [Sam Achola](https://www.behance.net/mathewnjuguna)
+
+#### This is me:
+
 👤 Tadeu Sarro
 
 - Github: [@tadeuasarro](https://github.com/tadeuasarro)
@@ -21,9 +27,9 @@ I've used HTML5, CSS3 and Bootstrap 4. Most of the elements are built with a com
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+###### Critics, ideas and comments are more than welcome!
 
-Feel free to check the [issues page](https://github.com/tadeuasarro/UsingBootstrap/issues)
+Feel free to check the [issues page](https://github.com/tadeuasarro/TadeuHTMLCapstone/issues)
 
 ## Show your support
 
@@ -31,8 +37,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse
+- Mathew Njuguna
+- Sam Anchola
 - GitHub
+- Behance
+- Microverse
 - TheOdinProject
 
 ## 📝 License
