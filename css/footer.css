@@ -165,12 +165,12 @@ footer {
     display: grid;
   }
 
-  .edit-sm-row-1{
+  .edit-sm-row-1 {
     grid-row-start: 1;
     grid-row-end: 1;
   }
 
-  .edit-sm-row-2{
+  .edit-sm-row-2 {
     grid-row-start: 2;
     grid-row-end: 2;
   }
@@ -262,12 +262,6 @@ footer {
     margin: 0;
   }
 
-  footer {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-  }
-
   .social-media {
     justify-content: center;
   }
@@ -275,7 +269,6 @@ footer {
   .copyright {
     text-align: center;
   }
-
 }
 
 @media (max-width: 575px) {
@@ -308,5 +301,4 @@ footer {
     grid-column-start: 2;
     grid-column-end: 2;
   }
-
 }
