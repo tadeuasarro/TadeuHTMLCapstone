@@ -38,11 +38,9 @@
 }
 
 .img-edit1,
-.img-edit2 {
-  height: 200px;
-}
+.img-edit2,
 .img-edit3 {
-  height: 250px;
+  height: 200px;
 }
 
 .img-edit1 {
@@ -75,9 +73,38 @@
 }
 
 .found-schools {
-  background-image: url('../img/bg.jpg/');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 350px;
   width: 100%;
+}
+
+.found-schools-first {
+  background-image: url('../img/school1.jpg');
+}
+
+.found-schools-second {
+  background-image: url('../img/school2.jpg');
+}
+
+.found-schools-third {
+  background-image: url('../img/school3.jpg');
+}
+
+.found-schools-fourth {
+  background-image: url('../img/school4.jpg');
+}
+
+.found-schools-fifth {
+  background-image: url('../img/school5.jpg');
+}
+
+.found-schools-sixth {
+  background-image: url('../img/school6.jpg');
+}
+
+.found-schools-seventh {
+  background-image: url('../img/school7.jpg');
 }
 
 .filter-form {
