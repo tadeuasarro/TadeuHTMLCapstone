@@ -110,3 +110,11 @@
 .iframe {
   border: none;
 }
+
+.custom-round-top {
+  border-radius: 5px 5px 0 0;
+}
+
+.custom-round-bottom {
+  border-radius: 0 0 5px 5px;
+}
