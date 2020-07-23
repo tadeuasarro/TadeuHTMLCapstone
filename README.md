@@ -1,6 +1,6 @@
 # HTML Capstone
 
-Hey there! In this project the main objective was to work on the front-end, by creating a responsive website of [this project right here](https://www.behance.net/gallery/25563385/PatashuleKE)
+Hey there! In this project the main objective was to work on the front-end, by creating a responsive website of [this project right here](https://www.behance.net/gallery/25563385/PatashuleKE).
 
 ![screenshot](img/screenshot.jpg)
 
@@ -14,7 +14,7 @@ To accomplish this work, it was used HTML5, CSS3 and Bootstrap. Most of the elem
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/TadeuHTMLCapstone/2ac29ad0175240a90600bb4fef29dd531aac3ede/index.html)
+- [Live Demo Link](https://rawcdn.githack.com/tadeuasarro/TadeuHTMLCapstone/2ac29ad0175240a90600bb4fef29dd531aac3ede/index.html)
 
 
 ## Authors
