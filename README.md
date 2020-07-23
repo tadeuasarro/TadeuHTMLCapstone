@@ -14,7 +14,7 @@ To accomplish this work, it was used HTML5, CSS3 and Bootstrap. Most of the elem
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/TadeuHTMLCapstone/f8daacf4340cd700765fbfbd0293394d6cf191da/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/TadeuHTMLCapstone/2ac29ad0175240a90600bb4fef29dd531aac3ede/index.html)
 
 
 ## Authors
