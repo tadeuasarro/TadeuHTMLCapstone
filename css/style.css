@@ -7,3 +7,123 @@
 .edit-navbar {
   background-color: #d4574a;
 }
+
+.custom-bg-image {
+  background: url('../img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-edit {
+  background-color: rgba(190, 190, 190, 0.8);
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.first-detail {
+  background-color: #e27e65;
+}
+
+.img-edit1,
+.img-edit2,
+.img-edit3 {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+.img-edit1 {
+  background-image: url('../img/kids.webp');
+}
+
+.img-edit2 {
+  background-image: url('../img/comute.webp');
+}
+
+.img-edit3 {
+  background-image: url('../img/clock.jpg');
+}
+
+.second-detail {
+  background-color: #99a5a6;
+}
+
+.third-detail {
+  background-color: #519bd7;
+}
+
+.text-white:hover,
+.text-body:hover {
+  text-decoration: none;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.found-schools {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.found-schools-first {
+  background-image: url('../img/school1.jpg');
+}
+
+.found-schools-second {
+  background-image: url('../img/school2.jpg');
+}
+
+.found-schools-third {
+  background-image: url('../img/school3.jpg');
+}
+
+.found-schools-fourth {
+  background-image: url('../img/school4.jpg');
+}
+
+.found-schools-fifth {
+  background-image: url('../img/school5.jpg');
+}
+
+.found-schools-sixth {
+  background-image: url('../img/school6.jpg');
+}
+
+.found-schools-seventh {
+  background-image: url('../img/school7.jpg');
+}
+
+.filter-form {
+  font-size: small;
+}
+
+.border-grey {
+  border: solid 1px grey;
+}
+
+.iframe {
+  border: none;
+}
+
+.custom-round-top {
+  border-radius: 5px 5px 0 0;
+}
+
+.custom-round-bottom {
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 576px) {
+  .img-edit1,
+  .img-edit2,
+  .img-edit3 {
+    display: flex;
+  }
+}

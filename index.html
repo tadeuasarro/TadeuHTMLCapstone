@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/fdaa9ad399.js" crossorigin="anonymous"></script>
         <title>Tadeu Patashule Clone</title>
@@ -11,33 +12,233 @@
     <body>
 
         <header>
-            <nav class="container-fluid py-0 px-5 m-0 edit-navbar d-flex flex-sm-column flex-md-row justify-content-md-between">
-                <h3 class="d-flex align-text-top h-100 text-white justify-content-center my-1">
-                    <i class="fas fa-map-marker pt-2 pr-2"></i>
-                    <span class="">patashule</span>
-                </h3>
+            <nav class="container-fluid py-0 px-5 m-0 edit-navbar d-flex flex-column flex-md-row justify-content-md-between">
+                <h1 class="h3 d-flex align-text-top h-100 text-white justify-content-center my-1">
+                    <a class="text-white" href="index.html">
+                        <i class="fas fa-map-marker pt-2 pr-2"></i>
+                        <span>patashule</span>
+                    </a>
+                </h1>
                 <ul class="text-white my-3 d-flex justify-content-center align-items-center">
-                    <li class="d-inline px-3"><i class="fas fa-search pr-1"></i><span class="d-none d-md-inline">Schools</span></li>
-                    <li class="d-inline px-3"><i class="far fa-user pr-1"></i><span class="d-none d-md-inline">About</span></li>
-                    <li class="d-inline px-3"><i class="fas fa-wifi pr-1"></i><span class="d-none d-md-inline">Blog</span></li>
-                    <li class="d-inline px-3"><i class="fas fa-bars pr-1"></i><span class="d-none d-md-inline">More...</span></li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-search pr-1"></i>
+                            <span class="d-none d-md-inline">Schools</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="far fa-user pr-1"></i>
+                            <span class="d-none d-md-inline">About</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-wifi pr-1"></i>
+                            <span class="d-none d-md-inline">Blog</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-bars pr-1"></i>
+                            <span class=" d-none d-md-inline">More...</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <main class="border">
+        <main class="container-fluid p-0 m-0">
+
+            <!-- SEARCH COVER -->
+            <div class="custom-bg-image py-5 px-2 d-flex justify-content-center">
+                <!-- SM SCREEN -->
+                <div class="pt-5 p-0 mt-5 m-0 d-flex d-md-none w-100 align-items-center flex-column">
+                    <h3 class="p-0 text-white d-flex w-100">Pata shule... your getaway for schools in Kenya.</h3>
+                    <form action="search.html" class="rounded d-none d-sm-block pt-2 pb-3 px-2 form-edit w-100">
+                        <label>Search by keyword:</label>
+                        <div class="input-group">
+                            <input class="col-10 form-control input-group-text">
+                            <button type="submit" class=" col-2 btn btn-danger form-control">Search</button>
+                        </div>
+                    </form>
+                    <form action="search.html" class="rounded d-block d-sm-none pt-2 pb-3 px-2 form-edit w-100">
+                        <label>Search by keyword:</label>
+                        <div class="input-group form-row pl-2">
+                            <input class="custom-round-top col-12 border-0 p-2">
+                        </div>
+                        <div class="input-group form-row pl-2">
+                            <button type="submit" class="custom-round-bottom border-0 p-2 col-12 btn-danger">Search</button>
+                        </div>
+                    </form>
+                    <a class="btn btn-secondary mt-3" href="">How it works</a>
+                </div>
+                <!-- MD SCREEN -->
+                <div class="p-0 m-0 d-none d-md-flex w-75 align-items-center flex-column">
+                    <h3 class="pt-3 p-0 mt-3 mb-1 mx-0 text-white d-flex w-100">Pata shule... your getaway for schools in Kenya.</h3>
+                    <form action="search.html" class="rounded py-5 px-5 form-edit w-100">
+                        <label>Search by keyword:</label>
+                        <div class="input-group">
+                            <input class="col-10 form-control input-group-text">
+                            <button type="submit" class=" col-2 btn btn-danger form-control">Search</button>
+                        </div>
+                    </form>
+                    <a class="btn btn-secondary mt-3" href="">How it works</a>
+                </div>
+            </div>
+
+            <!-- FOUR STEPS -->
             <div>
-                <h3>Patashule... your getaway for schools in Kenya.
-                </h3>
-                <form>
-                    <label></label>
-                    <input>
-                    <button></button>
-                </form>
+                <h5 class="text-center px-5 pt-5 pb-3 text-danger font-weight-bold">Pata schule works in four simple steps:</h5>
+                <div class="row w-100">
+                    <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center">
+                        <i class="fas fa-search mb-2 h1"></i>
+                        <h5 class="h3">1-Search</h5>
+                        <p class="text-center">It's simple. On Pata shule homepage, enter the name of a school you're looking for and click on search. Alternatively click on the search link on the top menu to view the list of all schools.</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center">
+                        <i class="fas fa-map-marked-alt mb-2 h1"></i>
+                        <h5 class="h3">2-Locate</h5>
+                        <p class="text-center">Get to the see where the school is located by clicking on the school profile. It's even more exciting. You can get the direction from anywhere in the country!</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center">
+                        <i class="far fa-file-alt mb-2 h1"></i>
+                        <h5 class="h3">3-Apply</h5>
+                        <p class="text-center">Apply for your child's interview to the school of your choice. Click on the APPLY button to get the application form. We also follow up on the application to make sure you get a reply on time.</p>
+                    </div>
+                    <div class="col-12 col-lg-6 p-5 d-flex flex-column align-items-center">
+                        <i class="fas fa-couch mb-2 h1"></i>
+                        <h5 class="h3">4-Relax</h5>
+                        <p class="text-center">Once your child gets admitted. You can now relax. You can check out our blog to see what we recomend when school hunting</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DETAILS -->
+            <div>
+                <div class="col-12 first-detail d-flex justify-content-center w-100 py-3 px-5">
+                    <div class="w-75 text-center d-flex justify-content-between">
+                        <div class="first-detail-container text-left d-none d-sm-flex w-50 flex-column justify-content-center text-white">
+                            <p class="h5">Over 10.000 schools registered with us.</p>
+                            <p>Find a school by using our filtered search engine.</p>
+                            <a href="" class="btn btn-light text-danger">Find a school</a>
+                        </div>
+                        <div class="first-detail-container text-left d-block d-sm-none w-100 text-white">
+                            <p class="h5">Over 10.000 schools registered with us.</p>
+                            <p>Find a school by using our filtered search engine.</p>
+                            <a href="" class="btn btn-light text-danger">Find a school</a>
+                        </div>
+                        <div class="img-edit1 rounded-circle"></div>
+                    </div>
+                </div>
+                <div class="col-12 second-detail d-flex justify-content-center w-100 py-3 px-5">
+                    <div class="w-75 text-center d-flex justify-content-between">
+                        <div class="text-left d-none d-sm-flex w-50 text-white flex-column justify-content-center">
+                            <p class="h5">No need to travel to find a school in the country.</p>
+                            <p>Just press or click on the search button and you're all set.</p>
+                            <a href="" class="btn btn-light text-dark">Find a school near you</a>
+                        </div>
+                        <div class="text-left d-block d-sm-none w-100 text-white">
+                            <p class="h5">No need to travel to find a school in the country.</p>
+                            <p>Just press or click on the search button and you're all set.</p>
+                            <a href="" class="btn btn-light text-dark">Find a school near you</a>
+                        </div>
+                        <div class="img-edit2 rounded-circle"></div>
+                    </div>
+                </div>
+                <div class="col-12 third-detail d-flex justify-content-center w-100 py-3 px-5">
+                    <div class="w-75 text-center d-flex justify-content-between">
+                        <div class="text-left d-none d-sm-flex w-50 text-white p-0 flex-column justify-content-center">
+                            <p class="h5">Anytime, anywhere, anyway!</p>
+                            <p>Very convenient platforms that cut across any device including our mobile ready web app and our mobile app comming soon to your app store.</p>
+                        </div>
+                        <div class="text-left d-block d-sm-none w-100 text-white">
+                            <p class="h5">Anytime, anywhere, anyway!</p>
+                            <p>Very convenient platforms that cut across any device including our mobile ready web app and our mobile app comming soon to your app store.</p>
+                        </div>
+                        <div class="img-edit3 rounded-circle"></div>
+                    </div>
+                </div>
             </div>
         </main>
 
-        <footer></footer>
+        <footer>
+            <div class="footer-container">
+                <ul class="edit-ul">
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-1 edit-row-1 edit-col-1">
+                        <a class="footer-anchor" href="#">Home</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-2 edit-row-2 edit-col-1">
+                        <a class="footer-anchor" href="#">Search</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-3 edit-row-3 edit-col-1">
+                        <a class="footer-anchor" href="#">About us</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-4 edit-row-4 edit-col-1">
+                        <a class="footer-anchor" href="#">Advertise</a>
+                    </li>
+                    <li class="edit-inline li-display-none">
+                        <a class="footer-anchor footer-loc-icon" href="#"><i class="fas fa-map-marker"></i></a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-1 edit-row-1 edit-col-2">
+                        <a class="footer-anchor" href="#">Facebook</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-2 edit-row-2 edit-col-2">
+                        <a class="footer-anchor" href="#">Twitter</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-3 edit-row-3 edit-col-2">
+                        <a class="footer-anchor" href="#">Blog</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-4 edit-row-4 edit-col-2">
+                        <a class="footer-anchor" href="#">Google +</a>
+                    </li>
+                </ul>
+
+                <div class="grid-edit">
+
+                    <h4 class="text-white first-row-edit first-col-edit first-col-edit-title">Subscribe</h4>
+                    <h4 class="text-white first-row-edit second-col-edit second-col-edit-title">Contact</h4>
+                    <h4 class="text-white first-row-edit third-col-edit third-col-edit-title">About</h4>
+
+                    <div class="first-col-edit first-col-edit-content second-row-edit">
+                        <form class="footer-form">
+                            <input placeholder="Your email">
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="second-col-edit second-col-edit-content second-row-edit">
+                        <p class="text-white">Have any question or requistion?
+                            <a href="#" class="text-danger"> info@patashule.com/</a>
+                        </p>
+                    </div>
+
+                    <div class="third-col-edit third-col-edit-content second-row-edit">
+                        <p class="text-white">Patashule is an online platform that assists parents to find a suitable for their children by simply searching by county, skill level, curriculum and more.
+                            <a href="" class="text-danger"> Learn more!</a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="last-elem">
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    <span>Patashule 2018 all rights reserved powered by</span>
+                    <span>Sconeum Digital</span>
+                    <span>Love and Awesomeness</span>
+                </div>
+            </div>
+
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

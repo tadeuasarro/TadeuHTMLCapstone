@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/fdaa9ad399.js" crossorigin="anonymous"></script>
+        <title>Tadeu Patashule Clone</title>
+    </head>
+    <body>
+
+        <header>
+            <nav class="container-fluid py-0 px-5 m-0 edit-navbar d-flex flex-column flex-md-row justify-content-md-between">
+                <h1 class="h3 d-flex align-text-top h-100 text-white justify-content-center my-1">
+                    <a class="text-white" href="index.html">
+                        <i class="fas fa-map-marker pt-2 pr-2"></i>
+                        <span>patashule</span>
+                    </a>
+                </h1>
+                <ul class="text-white my-3 d-flex justify-content-center align-items-center">
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-search pr-1"></i>
+                            <span class="d-none d-md-inline">Schools</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="far fa-user pr-1"></i>
+                            <span class="d-none d-md-inline">About</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-wifi pr-1"></i>
+                            <span class="d-none d-md-inline">Blog</span>
+                        </a>
+                    </li>
+                    <li class="d-inline px-3">
+                        <a href="#" class="text-white">
+                            <i class="fas fa-bars pr-1"></i>
+                            <span class=" d-none d-md-inline">More...</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container-fluid pb-5 p-0 m-0">
+
+            <!-- SEARCH COVER FOR LG SCREENS -->
+            <div class="p-5 my-5 bg-secondary text-center d-none d-lg-flex flex-wrap justify-content-center">
+                <h6 class="text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
+                <form class="d-flex justify-content-center align-items-end text-uppercase w-100 filter-form">
+                    <div class="form-group mr-1 m-0 text-left">
+                        <label>School name:*</label>
+                        <input class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group mr-1 m-0 text-left">
+                        <label>County:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group mr-1 m-0 text-left">
+                        <label>Level:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group mr-1 m-0 text-left">
+                        <label>Type:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group mr-1 m-0 text-left">
+                        <label>Gender:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group mr-1 m-0 text-left">
+                        <label>Curriculum:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-sm d-flex align-items-center mr-1">Search</button>
+                    <button type="button" class="btn btn-warning btn-sm d-flex text-nowrap">Clear filter</button>
+                </form>
+            </div>
+
+            <!-- SEARCH COVER FOR MD SCREENS -->
+            <div class="p-5 my-5 bg-secondary text-center d-none d-md-flex d-lg-none flex-wrap justify-content-center">
+                <h6 class="text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
+                <form class="d-flex justify-content-center align-items-end flex-wrap text-uppercase w-100 filter-form">
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">School name:*</label>
+                        <input class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">County:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Level:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Type:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Gender:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6 m-0 text-left mb-3">
+                        <label class="m-0">Curriculum:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn w-100 btn-primary btn-sm d-flex justify-content-center align-items-center my-2 mx-3">Search</button>
+                    <button type="button" class="btn w-100 btn-warning btn-sm d-flex justify-content-center text-nowrap my-3 mx-3">Clear filter</button>
+                </form>
+            </div>
+
+            <!-- SEARCH COVER FOR SM SCREENS -->
+            <div class="p-5 my-5 bg-secondary text-center d-flex d-md-none flex-wrap justify-content-center">
+                <h6 class="text-dark h3 mb-4">Filter by name, county, education system, school level:</h6>
+                <form class="d-flex justify-content-center align-items-end flex-wrap text-uppercase w-100 filter-form">
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">School name:*</label>
+                        <input class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">County:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Level:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Type:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Gender:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 m-0 text-left mb-3">
+                        <label class="m-0">Curriculum:</label>
+                        <select class="custom-select custom-select-sm">
+                            <option label="Options"></option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn w-100 btn-primary btn-sm d-flex justify-content-center align-items-center my-2 mx-3">Search</button>
+                    <button type="button" class="btn w-100 btn-warning btn-sm d-flex justify-content-center text-nowrap my-3 mx-3">Clear filter</button>
+                </form>
+            </div>
+
+            <div class="container">
+                <h6 class="text-center text-dark h3 mb-4">Search result found 7 school(s)</h6>
+                <div class="row position-relative">
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-first d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-second d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-third d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-fourth d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-fifth d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-sixth d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 px-2 pb-3">
+                        <a href="result.html" class="text-body found-schools found-schools-seventh d-flex justify-content-center align-items-center">
+                            <p class="bg-light p-2 rounded">Name: <b>School name here</b></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <ul class="edit-ul">
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-1 edit-row-1 edit-col-1">
+                        <a class="footer-anchor" href="#">Home</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-2 edit-row-2 edit-col-1">
+                        <a class="footer-anchor" href="#">Search</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-3 edit-row-3 edit-col-1">
+                        <a class="footer-anchor" href="#">About us</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-1 edit-sm-col-4 edit-row-4 edit-col-1">
+                        <a class="footer-anchor" href="#">Advertise</a>
+                    </li>
+                    <li class="edit-inline li-display-none">
+                        <a class="footer-anchor footer-loc-icon" href="#"><i class="fas fa-map-marker"></i></a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-1 edit-row-1 edit-col-2">
+                        <a class="footer-anchor" href="#">Facebook</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-2 edit-row-2 edit-col-2">
+                        <a class="footer-anchor" href="#">Twitter</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-3 edit-row-3 edit-col-2">
+                        <a class="footer-anchor" href="#">Blog</a>
+                    </li>
+                    <li class="edit-inline edit-sm-row-2 edit-sm-col-4 edit-row-4 edit-col-2">
+                        <a class="footer-anchor" href="#">Google +</a>
+                    </li>
+                </ul>
+
+                <div class="grid-edit">
+
+                    <h4 class="text-white first-row-edit first-col-edit first-col-edit-title">Subscribe</h4>
+                    <h4 class="text-white first-row-edit second-col-edit second-col-edit-title">Contact</h4>
+                    <h4 class="text-white first-row-edit third-col-edit third-col-edit-title">About</h4>
+
+                    <div class="first-col-edit first-col-edit-content second-row-edit">
+                        <form class="footer-form">
+                            <input placeholder="Your email">
+                            <button type="button">Send</button>
+                        </form>
+                    </div>
+
+                    <div class="second-col-edit second-col-edit-content second-row-edit">
+                        <p class="text-white">Have any question or requistion?
+                            <a href="#" class="text-danger"> info@patashule.com/</a>
+                        </p>
+                    </div>
+
+                    <div class="third-col-edit third-col-edit-content second-row-edit">
+                        <p class="text-white">Patashule is an online platform that assists parents to find a suitable for their children by simply searching by county, skill level, curriculum and more.
+                            <a href="" class="text-danger">Learn more!</a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="last-elem">
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    <span>Patashule 2018 all rights reserved powered by</span>
+                    <span>Sconeum Digital</span>
+                    <span>Love and Awesomeness</span>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+
+</html>
